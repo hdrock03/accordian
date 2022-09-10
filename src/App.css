@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  height: 100vh;
+  /* width: 100vw; */
+  border: 2px solid black;
+  background-color: blue;
+}
+
+.container{
+  display: flex;
+  /* align-items: center; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+  background-color: #fff;
+  min-height: 40vh;
+  overflow: hidden;
+  width: 55vw;
+  border-radius: 5px;
+}
+
+.topic{
+  /* border: 1px solid red; */
+  width: 30%;
+  font-size:200%;
+  font-weight: 500;
+}
+
+.ques{
+  width: 50%;
+  margin: 10px 80px;
+}
+
+/* singlequestion */
+.SingleQuestion{
+  /* border: 1px solid red; */
+  min-height: 5vh;
+  overflow: hidden;
+  box-shadow: 10px 10px 8px rgb(231, 225, 225);
+  margin: 8px 0;
+  border-color: grey;
+  border-radius: 5px;
+  align-items: center;
+  /* height: 8vh; */
+  /* width: 70%; */
+  /* display: flex; */
+}
+
+.visible{
+  display: flex;
+  justify-content: space-between;
+}
+.question{
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.btn{
+  /* border: 1px solid red; */
+  border-radius: 50%/50%; 
+    width: 50px;
+    height: 50px;
+    margin: 5px 8px;
+    border: none;
+    color: red;
+}
+
